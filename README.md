@@ -1,5 +1,5 @@
 # SaadOS
-Simple Operation System written in C++ language , This project is related with [[Tasksmoderator]](https://github.com/Saad711T/Tasksmoderator) .
+Simple Operation System written in C++ language , This project is related with [Tasksmoderator](https://github.com/Saad711T/Tasksmoderator) .
 
 ## Commands
 -CREATE FILE
