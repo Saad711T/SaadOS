@@ -6,3 +6,6 @@ Simple Operation System written in C++ language , This project is related with S
 -DELETE FILE
 -TOOLS
 -EXIT
+
+## Save
+-After exit from program , save log will be in "saadOSsaving.txt"
