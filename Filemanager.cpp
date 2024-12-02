@@ -7,7 +7,7 @@
 using namespace std;
 namespace fs = std::filesystem;
 
-void fileDetails(const string& fileName) {
+void fileDetails(const string& fileName) { //DETAILS
     try {
         if (fs::exists(fileName)) {
             cout << "File: " << fileName << "\n";
@@ -23,7 +23,7 @@ void fileDetails(const string& fileName) {
     }
 }
 
-void copyFile(const string& source, const string& destination) {
+void copyFile(const string& source, const string& destination) { //COPY
     try {
         fs::copy(source, destination, fs::copy_options::overwrite_existing);
         cout << "File \"" << source << "\" copied to \"" << destination << "\" successful.\n";
@@ -32,7 +32,7 @@ void copyFile(const string& source, const string& destination) {
     }
 }
 
-void renameFile(const string& oldName, const string& newName) {
+void renameFile(const string& oldName, const string& newName) { //RENAME
     try {
         fs::rename(oldName, newName);
         cout << "File \"" << oldName << "\" renamed to \"" << newName << "\" successful.\n";
@@ -41,7 +41,7 @@ void renameFile(const string& oldName, const string& newName) {
     }
 }
 
-void deleteFile(const string& fileName) {
+void deleteFile(const string& fileName) { //DELETE
     try {
         if (fs::remove(fileName)) {
             cout << "File \"" << fileName << "\" deleted completed.\n";
@@ -96,3 +96,5 @@ int main() {
 
     return 0;
 }
+
+// By : Saad Almalki , and Assistant with Github Copilot .
