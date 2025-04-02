@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaadOS - Linux Distro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #173248;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #0078d7;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0078d7;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0078d7;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to SaadOS</h1>
+        <p>C++ code will become a modern Linux distro based on Ubuntu</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#Source code">Source code</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>About SaadOS</h2>
+            <p>SaadOS is a lightweight, user-friendly Linux distribution based on Ubuntu. It is designed for both beginners and advanced users, offering a seamless and efficient experience.</p>
+            <img src="https://github.com/Saad711T/SaadOS/blob/main/SaadOS.png?raw=true" alt="About SaadOS">
+        </div>
+        <div id="features" class="section">
+            <h2>Features</h2>
+            <ul>
+                <li>Indie project</li>
+                <li>Customizable desktop environment</li>
+                <li>Open-Source and can be edited</li>
+            </ul>
+        </div>
+        <div id="Source code" class="section">
+            <h2>See the source code for Project</h2>
+            <p>Ready to try it or editing the project? Click the button below to see the source code in github.</p>
+            <a href="https://github.com/Saad711T/SaadOS" class="btn">Download</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 STACKS the NULLS. All rights reserved.</p>
+    </footer>
+    <script>
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href').substring(1);
+                document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
