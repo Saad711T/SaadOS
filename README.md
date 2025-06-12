@@ -19,3 +19,7 @@ In `SaadOs.cpp` you can do this commands :
 
 ## Save
 -After exit from program , save log will be in "saadOSsaving.txt"
+
+#### Special thanks
+1. For the author of this related project [AbderahmanOS](https://github.com/0xangoone/AbderahmanOS).
+2. For [STACKS the NULLS team](https://x.com/stacksthenulls)
