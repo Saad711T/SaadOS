@@ -1,0 +1,78 @@
+:root {
+  --primary: #0091ff;
+  --secondary: #61bedb;
+  --bg-dark: #1a1a1a;
+  --btn-bg: #2a2a2a;
+  --btn-hover: #3c3c3c;
+  --text: #ffffff;
+  --glow: 0 0 10px rgba(0, 145, 255, 0.7);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%), url('chessboard-bg.png');
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: var(--text);
+  font-family: "Segoe UI", Arial, sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  animation: fadeIn 1.5s ease-in;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: var(--glow);
+  margin-bottom: 60px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-item {
+  display: inline-block;
+  background-color: var(--btn-bg);
+  color: var(--text);
+  padding: 15px 60px;
+  border-radius: 10px;
+  font-size: 1.4em;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+.menu-item:hover {
+  background-color: var(--btn-hover);
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(97, 190, 219, 0.8);
+}
+
+footer {
+  margin-top: 80px;
+  font-size: 0.9em;
+  color: #cccccc;
+  opacity: 0.7;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — SaadChess</title>
+  <style>
+    :root {
+      --primary: #0091ff;
+      --secondary: #61bedb;
+      --bg: #1a1a1a;
+      --text: #ffffff;
+    }
+
+    body {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+      color: var(--text);
+      font-family: "Segoe UI", sans-serif;
+      text-align: center;
+      padding: 50px;
+      min-height: 100vh;
+    }
+
+    .card {
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 25px;
+      background-color: rgba(255, 255, 255, 0.2);
+      color: white;
+      padding: 10px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    a:hover {
+      background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>About SaadChess</h1>
+    <p><b>SaadChess</b> is a strategic, elegant, and modern chess game built exclusively for <b>SaadOS</b>.</p>
+    <p>Version: <b>1.0</b></p>
+    <a href="index.html">← Back to Main Menu</a>
+  </div>
+</body>
+</html>

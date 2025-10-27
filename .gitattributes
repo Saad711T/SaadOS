@@ -1,5 +1,9 @@
 *.cpp linguist-language=cpp
 *.cc linguist-language=cpp
 *.asm linguist-language=assembly
-*.h linguist-language=c
+*.h linguist-language=cpp
+*.c linguist-language=c
+*.hpp linguist-language=cpp
+*.hh linguist-language=cpp
+*.inl linguist-language=cpp
 *.html linguist-language=html

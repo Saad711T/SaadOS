@@ -1,6 +1,6 @@
 # SaadOS
 Simple Operation System written in C++ language , This project is related with [Tasksmoderator](https://github.com/Saad711T/Tasksmoderator) .
-![SaadOS](SaadOS.png)
+![SaadOS](docs/logo/SaadOS.png)
 
 ## Website
 Deployed in [Link](https://saados.netlify.app)
