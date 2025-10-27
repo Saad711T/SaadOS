@@ -115,7 +115,6 @@ int main() {
         else if (cmd.rfind("mkdir ", 0) == 0) makeDir(cmd.substr(6));
         else if (cmd.rfind("rmdir ", 0) == 0) removeDir(cmd.substr(6));
         else if (cmd.rfind("details ", 0) == 0) fileDetails(cmd.substr(8));
-        else if (cmd.rfind("touch ", 0) == 0) makeFile(cmd.substr(6));
         else if (cmd.rfind("cat ", 0) == 0) readFile(cmd.substr(4));
         else if (cmd == "sysinfo") sysInfo();
         else if (!cmd.empty()) cout << RED << "Unknown command.\n" << RESET;
