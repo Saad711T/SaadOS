@@ -7,3 +7,6 @@
 *.hh linguist-language=cpp
 *.inl linguist-language=cpp
 *.html linguist-language=html
+
+SaadOS/softwares/SaadChess/* linguist-detectable=false
+SaadOS/softwares/SaadChess/** linguist-detectable=false
